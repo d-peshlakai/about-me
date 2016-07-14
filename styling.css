@@ -1,0 +1,16 @@
+body {
+	background-color: #d8bfd8;
+}
+p {
+	text-indent: 5em;
+
+}
+
+.monument-image {
+	width: 100%;
+	height: auto;
+}
+.salsa-image {
+	width: 675px;
+	height: auto;
+}
