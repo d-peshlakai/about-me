@@ -13,7 +13,6 @@ p {
 h1 {
 	text-align: center;
 }
-
 h2 {
 	text-align: center;
 }
@@ -24,9 +23,15 @@ h2 {
 h3 {
 	text-align: center;
 }
-.salsa-image {
-	width: 675px;
-	height: auto;
+div.salsa {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+.skull-image {
+	width: 50%;
+	height: 50%;
+	float: left;
 }
 div.cup {
 	text-align: right;
@@ -48,12 +53,18 @@ div.zombie	{
 	top: 0; bottom: 0;
 	width: 15px;
 }
-#left { left: 0; }
-#right { right: 0; }
-
+#left {
+	left: 0;
+}
+#right {
+	right: 0;
+}
 #top, #bottom {
 	left: 0; right: 0;
 	height: 15px;
 }
-#top { top: 0; }
-#bottom { bottom: 0; }
+#top {
+	top: 0;
+}
+#bottom { bottom: 0;
+}
