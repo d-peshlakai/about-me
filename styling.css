@@ -1,16 +1,59 @@
+
+
+
+
+
 body {
-	background-color: #d8bfd8;
+	background-color: #008b8b;
 }
 p {
 	text-indent: 5em;
 
 }
+h1 {
+	text-align: center;
+}
 
+h2 {
+	text-align: center;
+}
 .monument-image {
 	width: 100%;
 	height: auto;
+}
+h3 {
+	text-align: center;
 }
 .salsa-image {
 	width: 675px;
 	height: auto;
 }
+div.cup {
+	text-align: right;
+}
+p {
+	text-align:center;
+}
+
+div.zombie	{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+#top, #bottom, #left, #right {
+	background: black;
+	position: fixed;
+}
+#left, #right {
+	top: 0; bottom: 0;
+	width: 15px;
+}
+#left { left: 0; }
+#right { right: 0; }
+
+#top, #bottom {
+	left: 0; right: 0;
+	height: 15px;
+}
+#top { top: 0; }
+#bottom { bottom: 0; }
